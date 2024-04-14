@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Heavy;
+  src: url(/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+  font-family: light;
+  src: url(/SF-Pro-Text-Light.otf);
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+ box-sizing: border-box;
+  
+}
+.body,html{
+  width: 100%;
+  height: 100%;
+}
+.loader{
+  width: 100vw;
+  height: 100vh;
+  background: #87F8AA82;
+  position: fixed;
+
+}
+.loader_{
+  width: 100%;
+  height: 100%;
+  background: #A09E9E;
+  position: relative;
+}
+.loader_ .loader_x{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+ top: 0;
+ left: 0;
+ transform-origin: right bottom;
+
+}
+.loader1{
+  background: #000000;
+  
+}
+
+
+
+.loader2 {
+  background: #393939;
+  color: #F7F3F3;
+}
+
+.loader3 {
+  background: #828282;
+}
+
+.loader4 {
+  background: #C6C6C6;
+}
+
+.loader5 {
+  background: #FD2547;
+}
+.loader5:hover{
+  
+}
+
+.loader_x h1{
+  font-size: 16vw;
+  text-transform: uppercase;
+  margin-top: 50vw;
+  margin-left: 4vw;
+  font-family: light;
+  color: #565555;
+
+}
+.text{
+  overflow-x: hidden;
+}
+
+.loader2 h1{
+  width: 100;
+  color: #F7F3F3;
+}
+.loader3 h1 {
+  width: 100%;
+  color: #000000;
+}
